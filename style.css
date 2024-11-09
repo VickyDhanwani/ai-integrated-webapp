@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container styling */
+form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Login input container styling */
+#login-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    margin-right: 10px;
+    min-width: 150px; /* Ensure labels have a consistent width */
+    text-align: right; /* Align text to the right */
+    color: #333;
+}
+
+/* Input styling */
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #1a73e8;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(26, 115, 232, 0.3);
+    transition: box-shadow 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    box-shadow: 0 4px 16px rgba(26, 115, 232, 0.5);
+    background-color: #0059c1;
+}
